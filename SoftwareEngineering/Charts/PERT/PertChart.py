@@ -1,7 +1,5 @@
 import json
 import math
-import queue
-from abc import abstractmethod
 
 
 class TimeEstimations:
@@ -138,8 +136,8 @@ class ChartCreator:
 
         nodes = []
         for n in self.json_data["nodes"]:
-            node = self._get_node(n)
-            nodes.append(node)
+            pert_node = self._get_node(n)
+            nodes.append(pert_node)
 
         return PertChart(self.json_data["startNode"], self.json_data["endNode"], nodes)
 
