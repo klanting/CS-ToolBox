@@ -1,0 +1,105 @@
+{
+  "startNode": "A",
+  "endNode": "K",
+  "nodes": {
+    "A":  {
+      "duration": 1,
+      "connections": ["B", "C"],
+      "times": {
+        "OT": 1,
+        "LT": 1,
+        "PT": 1
+      }
+    },
+    "B":  {
+      "duration": 1,
+      "connections": ["C"],
+      "times": {
+        "OT": 1,
+        "LT": 1,
+        "PT": 1
+      }
+    },
+    "C":  {
+      "duration": 1,
+      "connections": ["D"],
+      "times": {
+        "OT": 1,
+        "LT": 1,
+        "PT": 1
+      }
+    },
+    "D":  {
+      "duration": 1,
+      "connections": ["E"],
+      "times": {
+        "OT": 1,
+        "LT": 1,
+        "PT": 1
+      }
+    },
+    "E":  {
+      "duration": 1,
+      "connections": ["F"],
+      "times": {
+        "OT": 1,
+        "LT": 1,
+        "PT": 1
+      }
+    },
+    "F":  {
+      "duration": 4,
+      "connections": ["G"],
+      "times": {
+        "OT": 1,
+        "LT": 1,
+        "PT": 1
+      }
+    },
+    "G":  {
+      "duration": 1,
+      "connections": ["H"],
+      "times": {
+        "OT": 1,
+        "LT": 2,
+        "PT": 1
+      }
+    },
+    "H":  {
+      "duration": 1,
+      "connections": ["I"],
+      "times": {
+        "OT": 1,
+        "LT": 1,
+        "PT": 1
+      }
+    },
+    "I":  {
+      "duration": 1,
+      "connections": ["J"],
+      "times": {
+        "OT": 1,
+        "LT": 1,
+        "PT": 1
+      }
+    },
+    "J":  {
+      "duration": 1,
+      "connections": ["K"],
+      "times": {
+        "OT": 1,
+        "LT": 1,
+        "PT": 1
+      }
+    },
+    "K":  {
+      "duration": 1,
+      "connections": [],
+      "times": {
+        "OT": 1,
+        "LT": 1,
+        "PT": 1
+      }
+    }
+  }
+}
